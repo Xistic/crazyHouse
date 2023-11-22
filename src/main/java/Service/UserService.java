@@ -8,6 +8,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+//* Включает в себя методы по работе с пользователями
+// saveUser - сохранят пользователя
+// deleteUser - удаляет пользователя
+// getUser... Получения пользователя по id
+// **//
 @Service
 public class UserService{
     private final UserRepository userRepository;
